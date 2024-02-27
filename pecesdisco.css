@@ -1,0 +1,174 @@
+body { background-color: rgb(194, 227, 246); }
+h1 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  background:rgb(108, 199, 244)
+}
+.contenedor {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background: rgb(30, 124, 255);
+  padding: 0;
+}
+.contenedor li {
+  flex: 5 1 0;
+}
+
+.contenedor a {
+  font: 15px sans-serif;
+  text-align: center;
+  text-decoration:none;
+  display: block;
+  padding: 10px;
+  color: white;
+  user-select: none;
+}
+.contenedor li:hover {
+  background: rgb(0, 221, 255);
+}
+
+section {
+  display: none;
+}
+
+#Inicio:target , #Peces:target , #Peceras:target , #Formulario:target  {
+  display: block;
+}
+
+/* Estilo general del selector */
+#languageSelector {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Cambio de estilo al pasar el ratón sobre las opciones */
+#languageSelector:hover {
+  border-color: #66afe9;
+}
+
+/* Estilo del selector cuando está enfocado */
+#languageSelector:focus {
+  outline: none;
+  box-shadow: 0 0 5px #66afe9;
+}
+
+/* Estilo de las opciones del selector */
+#languageSelector option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilo de las opciones cuando están seleccionadas */
+#languageSelector option:checked {
+  background-color: #66afe9;
+  color: #fff;
+}
+
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  padding: 3px;
+  text-align: center;
+
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+.relativas .flota { /* Esto es la imagen <---  */
+  float: left; /* Alinea las imágenes a la izquierda <---  */
+  width: 10em;
+  height: 10em;
+  background-image: url("Imagenes/pez_inicio.jpg");
+  background-size: cover; /* Ajusta la imagen para que se vea bien  <---  */
+  background-position: center;
+}
+.relativas {
+  width: auto; /* Ancho del contenedor ajustado a la pantalla */
+  height: auto; /* Alto del contenedor */
+  border: 0px solid black; /* Borde del contenedor */
+  padding: 1em; /* Espacio entre el borde y el contenido */
+  margin: 1em; /* Espacio entre los contenedores */
+}
+
+.relativas p {
+  margin: 0 0 1em 0; /* Espacio entre los párrafos <---  */
+}
+
+.pixels .flota { /* Esto es la imagen <---  */
+  float: left; /* Alinea las imágenes a la izquierda <---  */
+  width: 10em;
+  height: 10em;
+  background-image: url("Imagenes/amazonas.jpg");
+  background-size: cover; /* Ajusta la imagen para que se vea bien  <---  */
+  background-position: center;
+}
+.pixels {
+  width: auto; /* Ancho del contenedor ajustado a la pantalla */
+  height: auto; /* Alto del contenedor */
+  border: 0px solid black; /* Borde del contenedor */
+  padding: 1em; /* Espacio entre el borde y el contenido */
+  margin: 1em; /* Espacio entre los contenedores */
+}
+
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+video {
+  width: 90%;
+  height: 60%;
+  margin: 20px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+
+.pixels p {
+  margin: 0 0 1em 0; /* Espacio entre los párrafos <---  */
+}
+
+/* Aplicar un estilo básico a toda la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;  /* Quita el espacio entre las celdas */
+  margin-top: 10px;  /* Espacio entre la tabla y el resto del contenido */
+}
+
+/* Estilo para el encabezado de la tabla */
+th {
+  background-color: rgb(58, 91, 137);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+/* Estilo alterno para filas */
+tbody tr:nth-child(even) { /* Selecciona las filas pares */
+  background-color: #f2f2f2; 
+}
+
+/* Estilo para el pie de la tabla, si es necesario */
+tfoot {
+  background-color: rgb(30, 124, 255);
+  color: white;
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Peceras",
+  "content": "<h2>Peceras</h2><table border=\"3\"><thead><th>Tipo</th><th>Tamaño</th><th>Litros</th><th>Peces</th><th>Limpieza</th></thead><tbody><tr><td>Pequeño</td><td>20x20x20cm</td><td>8L</td><td>1</td><td>Semanal</td></tr><tr><td>Mediano</td><td>40x40x40cm</td><td>64L</td><td>4</td><td>Quincenal</td></tr><tr><td>Grande</td><td>80x80x80cm</td><td>512L</td><td>8</td><td>Mensual</td></tr></tbody></table>"
+}

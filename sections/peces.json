@@ -1,0 +1,29 @@
+{
+   "title": "Peces",
+   "sections": [
+     {
+       "tag": "h2",
+       "content": "Peces"
+     },
+     {
+       "tag": "div",
+       "class": "video",
+       "children": [
+         {
+           "tag": "video",
+           "controls": true,
+           "autoplay": true,
+           "muted": true,
+           "loop": true,
+           "children": [
+             {
+               "tag": "source",
+               "src": "Videos/Video.mp4",
+               "type": "video/mp4"
+             }
+           ]
+         }
+       ]
+     }
+   ]
+}

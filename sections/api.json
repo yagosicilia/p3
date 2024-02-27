@@ -1,0 +1,18 @@
+{
+   "title": "Api",
+   "content": {
+     "html": {
+       "head": {},
+       "body": {
+         "div": {
+           "label": "Pulsa para cargar los perritos",
+           "button": {
+             "text": "Buscar Perritos",
+             "onclick": "busqueda()"
+           }
+         }
+       }
+     }
+   }
+ }
+ 

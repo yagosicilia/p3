@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="title">Peces Disco</title>
+  <link rel="stylesheet" href="pecesdisco.css">
+  <script src="idioma.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body style="background-color: rgb(194, 227, 246);">
+  <header>
+    <h1 id="header-title">Peces Disco</h1>
+    <nav>
+      <ul class="contenedor">
+        <li><a href="#" onclick="loadSection('inicio')" id="home">Inicio</a></li>
+        <li><a href="#" onclick="loadSection('peces')" id="fish">Peces</a></li>
+        <li><a href="#" onclick="loadSection('peceras')" id="tanks">Peceras</a></li>
+        <li><a href="#" onclick="loadSection('formulario')" id="form">Formulario</a></li>
+        <li><a href="#">Api</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div>
+        <label for="cryptoName">Nombre de la criptomoneda:</label>
+        <input type="text" id="cryptoName" placeholder="Escribe el nombre...">
+        <button id="boton">Buscar Precio</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="api.js"></script>
+
+    <div id="main-content">
+    </div>
+
+</body>
+</html>
+
+
